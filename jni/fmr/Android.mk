@@ -31,6 +31,7 @@ LOCAL_SHARED_LIBRARIES := \
     libmedia \
 
 LOCAL_MODULE := libfmjni
+LOCAL_PROPRIETARY_MODULE := true
 
 ifneq ($(BOARD_USES_QCOM_HARDWARE),true)
 include $(BUILD_SHARED_LIBRARY)

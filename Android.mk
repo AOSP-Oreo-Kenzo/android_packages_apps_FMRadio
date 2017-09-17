@@ -29,6 +29,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := FMRadio
 LOCAL_JNI_SHARED_LIBRARIES := libfmjni
+LOCAL_PROPRIETARY_MODULE := true
 
 LOCAL_PROGUARD_ENABLED := disabled
 LOCAL_PRIVILEGED_MODULE := true
